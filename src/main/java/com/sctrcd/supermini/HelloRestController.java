@@ -10,7 +10,7 @@ public class HelloRestController {
     
     public HelloRestController() {
     }
-    //random stuff here1
+    //random stuff here
     @RequestMapping(value = "/hello")
     public String countries() {
         return "Hello, World!";
